@@ -1,6 +1,8 @@
 # Git
 ## Advanced training
 
+:zap: Powered by [remarkjs](https://github.com/gnab/remark).
+
 ---
 
 # Summary
