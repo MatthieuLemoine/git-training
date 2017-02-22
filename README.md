@@ -16,8 +16,8 @@
 
 - Distributed != Centralised
 
-![distributed](./distributed.png)
-![centralised](./centralised.png)
+![distributed](./assets/distributed.png)
+![centralised](./assets/centralised.png)
 
 - Basic commands
 
@@ -259,34 +259,34 @@ $ git merge --no-ff <nextversion>
 # Git Flow
 
 ### Main branches
-![main-branches](./main-branches.png)
+![main-branches](./assets/main-branches.png)
 
 ---
 
 # Git Flow
 
 ### Feature branches
-![fb](./fb.png)
+![fb](./assets/fb.png)
 
 ---
 
 # Git Flow
 
 ### Merge without ff
-![merge-without-ff](./merge-without-ff.png)
+![merge-without-ff](./assets/merge-without-ff.png)
 
 ---
 
 # Git Flow
 
 ### Hotfixes branches
-![hotfix-branches](./hotfix-branches.png)
+![hotfix-branches](./assets/hotfix-branches.png)
 
 ---
 
 # Git Flow
 
-![git-model](./git-model.png)
+![git-model](./assets/git-model.png)
 
 ---
 
