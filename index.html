@@ -37,7 +37,7 @@
         width : 50%;
       }
       .main-img img {
-        width : 40%;
+        width : 35%;
       }
       .fb-img img {
         width : 15%;
@@ -125,7 +125,6 @@ $ git remote set-url origin git@github.com:<user>/<repo>.git
 ```
 $ echo <filename> >> .gitignore
 *$ git rm --cached <filename>
-$ git add <filename>
 ```
 - How to view my local changes ?
 ```
@@ -367,6 +366,20 @@ $ git commit -a
 $ git status
 $ git diff
 ```
+- When pushing/pulling always specify the remote and the branch :
+```
+$ git pull <remote> <branch>
+$ git push <remote> <branch>
+```
+- Use force push only when you are the only one to use this branch :
+```
+$ git push -f <remote> <branch>
+```
+
+---
+
+# Advices
+
 - Use aliases
 ```
 alias gst  ='git status'
@@ -380,13 +393,8 @@ alias gp   ='git push'
 alias gcb  ='git checkout -b'
 alias glog ='git log --oneline --decorate --graph'
 ```
-
----
-
-# Advices
-
-- Use [gitmoji](https://gitmoji.carloscuesta.me/)
-- Use git & github for your personnal projects to learn (like this presentation)
+- Use [gitmoji](https://gitmoji.carloscuesta.me/) to provide an easy way of identifying the purpose of a commit (and add some colors to your git history)
+- Use git & github for your personnal projects to learn (as this presentation)
 
 ---
 

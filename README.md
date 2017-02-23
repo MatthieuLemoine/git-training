@@ -68,7 +68,6 @@ $ git remote set-url origin git@github.com:<user>/<repo>.git
 ```
 $ echo <filename> >> .gitignore
 $ git rm --cached <filename>
-$ git add <filename>
 ```
 - How to view my local changes ?
 ```
